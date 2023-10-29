@@ -1,0 +1,38 @@
+﻿@model GameViewModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<form asp-action="Create" enctype="multipart/form-data">
+  
+   <div class="container">
+       <div class="row">
+           <div class="col-4 mt-4">
+                <partial name="CreateEditPartialView" />
+           </div>
+            <div class="col-6 mt-4 d-flex justify-content-center  ">
+                <img class="cover-preview" alt="Cover"  height="500px" />
+            </div>
+       </div>
+   </div>
+
+
+
+</form>
+@section scripts
+    {
+    <partial name="_validationscriptspartial" />
+        <script src="~/js/game-form.js" asp-append-version="true"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+       @* <script>
+        $(document).ready(function () {
+         $("#Img").on('change', function () {
+                $('.cover-preview').attr('src', window.URL.createObjectURL(this.files[0])).removeClass('d-none');
+            });
+        });
+
+        </script>*@
+
+
+}

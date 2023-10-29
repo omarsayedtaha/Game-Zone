@@ -1,0 +1,59 @@
+﻿@model IEnumerable<GameViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+ 
+
+<div class="row mt-5">
+    @if (Model.Count() > 0)
+    {
+        @foreach (var item in Model)
+        {
+            <div class="col-lg-4 col-md-6">
+                <a class="card border-success mb-3 text-decoration-none rounded-3 overflow-hidden" asp-controller="Game" asp-action="Details" asp-route-id="@item.Id">
+                    <div class="card-body p-0 m-0"  style=" height: 500px;">
+                        <img  src="~/files/Cover/@item.Poster" height="90%" width="100%"></img>
+                        <div class="img  align-items-end ">
+
+                            <span class="badge bg-secondary rounded-0 fs-3">@item.Category.Name</span>
+                        </div>
+                        <div class="center text-muted d-flex justify-content-between align-items-center">
+                            <h5 class="p-2 fs-4">@item.Name</h5>
+                                <div>
+                                @foreach (var gameDevice in item.GameDevices)
+                                {
+                                            <i class="@gameDevice.Device.Icon me-2 fs-4"></i>
+                                }
+                                </div>
+                        </div>
+                        
+                    </div>
+                    
+         
+                   
+                </a>
+              
+               
+            </div>
+                
+            
+        }
+    }
+    else
+    {
+        <div class="alert-danger mt-5">
+            <h4 class="alert-heading">No games!</h4>
+            <p class="mb-0">No games to Show.</p>
+        </div>
+    }
+</div>
+
+@section scripts
+{
+    <script>
+        document.getElementsByIid().Style
+    </script>
+}

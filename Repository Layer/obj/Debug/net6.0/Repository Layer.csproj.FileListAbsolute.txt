@@ -1,0 +1,34 @@
+D:\Dotnet Course Route\Projects\Game Zone\Repository Layer\obj\Debug\net6.0\Repository Layer.csproj.AssemblyReference.cache
+D:\Dotnet Course Route\Projects\Game Zone\Repository Layer\obj\Debug\net6.0\Repository Layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet Course Route\Projects\Game Zone\Repository Layer\obj\Debug\net6.0\Repository Layer.AssemblyInfoInputs.cache
+D:\Dotnet Course Route\Projects\Game Zone\Repository Layer\obj\Debug\net6.0\Repository Layer.AssemblyInfo.cs
+D:\Dotnet Course Route\Projects\Game Zone\Repository Layer\obj\Debug\net6.0\Repository Layer.csproj.CoreCompileInputs.cache
+D:\Dotnet Course Route\Projects\Game Zone\Repository Layer\bin\Debug\net6.0\Repository Layer.deps.json
+D:\Dotnet Course Route\Projects\Game Zone\Repository Layer\bin\Debug\net6.0\Repository Layer.runtimeconfig.json
+D:\Dotnet Course Route\Projects\Game Zone\Repository Layer\bin\Debug\net6.0\Repository Layer.dll
+D:\Dotnet Course Route\Projects\Game Zone\Repository Layer\bin\Debug\net6.0\Repository Layer.pdb
+D:\Dotnet Course Route\Projects\Game Zone\Repository Layer\bin\Debug\net6.0\Core Layer.dll
+D:\Dotnet Course Route\Projects\Game Zone\Repository Layer\bin\Debug\net6.0\Core Layer.pdb
+D:\Dotnet Course Route\Projects\Game Zone\Repository Layer\obj\Debug\net6.0\Repository Layer.csproj.CopyComplete
+D:\Dotnet Course Route\Projects\Game Zone\Repository Layer\obj\Debug\net6.0\Repository Layer.dll
+D:\Dotnet Course Route\Projects\Game Zone\Repository Layer\obj\Debug\net6.0\refint\Repository Layer.dll
+D:\Dotnet Course Route\Projects\Game Zone\Repository Layer\obj\Debug\net6.0\Repository Layer.pdb
+D:\Dotnet Course Route\Projects\Game Zone\Repository Layer\obj\Debug\net6.0\Repository Layer.genruntimeconfig.cache
+D:\Dotnet Course Route\Projects\Game Zone\Repository Layer\obj\Debug\net6.0\ref\Repository Layer.dll
+C:\Users\Omar\Desktop\Game-Zone-main\Game-Zone-main\Repository Layer\bin\Debug\net6.0\Repository Layer.deps.json
+C:\Users\Omar\Desktop\Game-Zone-main\Game-Zone-main\Repository Layer\bin\Debug\net6.0\Repository Layer.runtimeconfig.json
+C:\Users\Omar\Desktop\Game-Zone-main\Game-Zone-main\Repository Layer\bin\Debug\net6.0\Repository Layer.dll
+C:\Users\Omar\Desktop\Game-Zone-main\Game-Zone-main\Repository Layer\bin\Debug\net6.0\Repository Layer.pdb
+C:\Users\Omar\Desktop\Game-Zone-main\Game-Zone-main\Repository Layer\bin\Debug\net6.0\Core Layer.dll
+C:\Users\Omar\Desktop\Game-Zone-main\Game-Zone-main\Repository Layer\bin\Debug\net6.0\Core Layer.pdb
+C:\Users\Omar\Desktop\Game-Zone-main\Game-Zone-main\Repository Layer\obj\Debug\net6.0\Repository Layer.csproj.AssemblyReference.cache
+C:\Users\Omar\Desktop\Game-Zone-main\Game-Zone-main\Repository Layer\obj\Debug\net6.0\Repository Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omar\Desktop\Game-Zone-main\Game-Zone-main\Repository Layer\obj\Debug\net6.0\Repository Layer.AssemblyInfoInputs.cache
+C:\Users\Omar\Desktop\Game-Zone-main\Game-Zone-main\Repository Layer\obj\Debug\net6.0\Repository Layer.AssemblyInfo.cs
+C:\Users\Omar\Desktop\Game-Zone-main\Game-Zone-main\Repository Layer\obj\Debug\net6.0\Repository Layer.csproj.CoreCompileInputs.cache
+C:\Users\Omar\Desktop\Game-Zone-main\Game-Zone-main\Repository Layer\obj\Debug\net6.0\Repository Layer.csproj.CopyComplete
+C:\Users\Omar\Desktop\Game-Zone-main\Game-Zone-main\Repository Layer\obj\Debug\net6.0\Repository Layer.dll
+C:\Users\Omar\Desktop\Game-Zone-main\Game-Zone-main\Repository Layer\obj\Debug\net6.0\refint\Repository Layer.dll
+C:\Users\Omar\Desktop\Game-Zone-main\Game-Zone-main\Repository Layer\obj\Debug\net6.0\Repository Layer.pdb
+C:\Users\Omar\Desktop\Game-Zone-main\Game-Zone-main\Repository Layer\obj\Debug\net6.0\Repository Layer.genruntimeconfig.cache
+C:\Users\Omar\Desktop\Game-Zone-main\Game-Zone-main\Repository Layer\obj\Debug\net6.0\ref\Repository Layer.dll

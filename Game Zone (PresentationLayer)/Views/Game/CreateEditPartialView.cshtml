@@ -1,0 +1,55 @@
+﻿@model GameViewModel
+@{
+    ViewData["Title"] = "CreateEditPartialView";
+}
+
+@inject IUnitOfWork unitofwork
+@{
+    var devices = new SelectList(unitofwork.Repository<Device>().GetAllAsync().Result, "Id", "Name");
+    var Categories = new SelectList(unitofwork.Repository<Category>().GetAllAsync().Result.OrderBy(x => x.Name), "Id", "Name");
+
+}
+
+            <div class="form-group">
+                <label asp-for="Name" class="col-form-label">Name</label>
+                <input asp-for="Name" class="form-control " placeholder="Name"></input>
+                <span asp-validation-for="Name"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="col-form-label">Description</label>
+                <textarea asp-for="Description" class="form-control"> </textarea>
+                <span asp-validation-for="Description"></span>
+
+            </div>
+            <div class="form-group">
+                <label asp-for="Category" class="col-form-label"></label>
+                <select asp-for="CategoryId" class="form-select" asp-items="@Categories"
+                        data-placeholder="Select a Category" data-minimum-results-for-search="Infinity">
+
+                    <option value="@null"> </option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="GameDevices" class="col-form-label"></label>
+                <select asp-for="DevicesIds" class="form-select" asp-items="@devices">
+                    <option value="@null"> Select Platforms </option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="PosterImage" class="col-form-label"></label>
+                <input id="Img" type="file" asp-for="PosterImage" class="form-control">
+                <span asp-validation-for="PosterImage"></span>
+            </div>
+            <div class="mt-4">
+                <input class="btn btn-light" type="submit" value="Save">
+
+                <a class="btn btn-light" asp-action="Index">Back</a>
+            </div>
+
+            @section scripts
+            {
+                <partial name="_validationscriptspartial" />
+                <script src="~/js/game-form.js" asp-append-version="true"></script>
+            }
+
+

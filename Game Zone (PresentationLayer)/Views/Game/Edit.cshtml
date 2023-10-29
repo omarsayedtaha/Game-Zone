@@ -1,0 +1,32 @@
+﻿@model GameViewModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<form asp-action="Edit" enctype="multipart/form-data">
+
+ 
+    <input hidden asp-for="Id"/>
+    <div class="container">
+        <div class="row">
+            <div class="col-8 mt-4">
+                <partial name="CreateEditPartialView" model="Model" />
+            </div>
+            <div class="col-4 mt-4 d-flex justify-content-center ">
+                <img id="cover-preview" alt="Cover" src="~/files/Cover/@Model.Poster" height="500px" />
+            </div>
+        </div>
+    </div>
+    
+
+    
+</form>
+@section scripts
+    {
+    <partial name="_validationscriptspartial" />
+     <script src="~/js/game-form.js" asp-append-version="true"></script>
+      <script src="~/js/site.js" asp-append-version="true"></script>
+    
+
+
+}
